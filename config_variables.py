@@ -17,7 +17,7 @@ OUTPUT_NEURONS = 4
 
 CAR_DBG = False
 FRICTION  = -0.1
-MAX_VEL = 20
+MAX_VEL = 10
 MAX_VEL_REDUCTION = 1              #at the start reduce maximum speed
 ACC_STRENGHT = 0.2
 BRAKE_STREGHT = 1
@@ -31,7 +31,7 @@ ROAD_DBG = False
 MAX_ANGLE = 1
 MAX_DEVIATION = 300
 SPACING = 200
-NUM_POINTS  = 4                 #number of points for each segment
+NUM_POINTS  = 15                #number of points for each segment
 SAFE_SPACE = SPACING + 50       #buffer space above the screen
 ROAD_WIDTH = 200
 
